@@ -17,3 +17,13 @@ const hora = 12;
 if (hora <= 12) {
   console.log('Bom dia!');
 }
+
+// if (condição) afirmação1 [else afirmação2]
+
+// Retorna não é bom dia!
+const hora = 12;
+if (hora < 12) {
+  console.log('Bom dia!');
+} else {
+  console.log('Não é bom dia!');
+}
