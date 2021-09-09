@@ -3,6 +3,9 @@ let a = 1;
 let b = 1;
 console.log(a == b); // retorna true
 // Não igual (!=)	Retorna verdadeiro caso os operandos não sejam iguais.	
+let a = 1;
+let b = 1;
+console.log(a != b); // retorna false
 // Estritamente igual (===)	Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo. 
 // Estritamente não igual (!==)	Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.	
 // Maior que (>)	Retorna verdadeiro caso o operando da esquerda seja maior que o da direita.	
