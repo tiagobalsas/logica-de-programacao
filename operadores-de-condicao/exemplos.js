@@ -28,3 +28,10 @@ if (b > 0 && b < 5) {
 } else {
   console.log('Nenhuma das condições foram atendidas... :( ');
 }
+
+// Se uma das condições for atendida, imprime o log.
+const x = 'Verdadeiro';
+const y = 2;
+if (x === 'Verdadeiro' || y >= 2) {
+  console.log('Uma das condições são verdadeiras');
+}
