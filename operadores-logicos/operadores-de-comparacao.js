@@ -23,4 +23,7 @@ let a = 1;
 let b = 1;
 console.log(a >= b); // retorna false
 // Menor que (<)	Retorna verdadeiro caso o operando da esquerda seja menor que o da direita.
+let a = 1;
+let b = 1;
+console.log(a < b); // retorna false
 // Menor que ou igual (<=)	Retorna verdadeiro caso o operando da esquerda seja menor ou igual ao da direita.
