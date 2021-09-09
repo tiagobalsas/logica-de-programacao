@@ -5,8 +5,9 @@
 /* Avaliação de curto-circuito
 Como expressões lógicas são avaliadas da esquerda para a direita, elas são testadas como possíveis avaliações de "curto-circuito" utilizando as seguintes regras:
 
-false && qualquercoisa é avaliado em curto-circuito como falso.
-true || qualquercoisa é avaliado em curto-circuito como verdadeiro.
+ --- false && qualquercoisa é avaliado em curto-circuito como falso.
+ --- true || qualquercoisa é avaliado em curto-circuito como verdadeiro.
+
 As regras de lógica garantem que estas avaliações estejam sempre corretas. Repare que a parte qualquercoisa das expressões acima não é avaliada, de forma que qualquer efeito colateral de fazê-lo não produz efeito algum. 
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#:~:text=Avalia%C3%A7%C3%A3o%20de%20curto,produz%20efeito%20algum.
 */
@@ -18,3 +19,4 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Op
 // (0) - zero
 // (NaN) 
 // ('') - String Vazia
+
