@@ -7,3 +7,7 @@ console.log(false || true); // retorna true
 // (OU lógico) - OU lógico (||)
 console.log(false || false); // retorna false
 // (Negação lógica) - NOT lógico (!)
+console.log(!true); // retorna false 
+console.log(!!true); // retorna true 
+console.log(!false); // retorna true
+console.log(!!false); // retorna false
