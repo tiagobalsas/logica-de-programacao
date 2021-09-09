@@ -35,3 +35,11 @@ const y = 2;
 if (x === 'Verdadeiro' || y >= 2) {
   console.log('Uma das condições são verdadeiras');
 }
+
+// Se a condição for verdadeira, imprime verdadeiro, senao imprime falso
+const z = false;
+if (!z) {
+  console.log('verdadeiro');
+} else {
+  console.log('falso');
+}
