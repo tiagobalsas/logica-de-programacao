@@ -12,3 +12,19 @@ if (a > 0 && a <= 5) {
 } else {
   console.log('O Valor de (a) é maior que 5');
 }
+
+// Enquanto a condição não for atendida, a validação só para na última instrução, else
+const b = 20;
+if (b > 0 && b < 5) {
+  console.log('Primeira condição é verdadeira... parei por aqui :) ');
+} else if (b >= 5 && b < 10) {
+  console.log(
+    'A primeira condição não é verdadeira, MAS A SEGUNDA SIM... parei por aqui :) '
+  );
+} else if (b >= 10 && b < 20) {
+  console.log(
+    'Nem a primeira, nem a segunda são verdadeiras, MAS  A TECEIRA SIM... parei por aqui :) '
+  );
+} else {
+  console.log('Nenhuma das condições foram atendidas... :( ');
+}
