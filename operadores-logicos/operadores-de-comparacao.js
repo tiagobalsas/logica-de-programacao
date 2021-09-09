@@ -15,6 +15,9 @@ let a = 1;
 let b = '1';
 console.log(a !== b); // retorna true
 // Maior que (>)	Retorna verdadeiro caso o operando da esquerda seja maior que o da direita.
+let a = 1;
+let b = 1;
+console.log(a > b); // retorna false
 // Maior que ou igual (>=)	Retorna verdadeiro caso o operando da esquerda seja maior ou igual ao da direita.
 // Menor que (<)	Retorna verdadeiro caso o operando da esquerda seja menor que o da direita.
 // Menor que ou igual (<=)	Retorna verdadeiro caso o operando da esquerda seja menor ou igual ao da direita.
