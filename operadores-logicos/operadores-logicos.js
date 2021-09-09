@@ -4,5 +4,6 @@ console.log(true && false); // retorna false
 // (OU lógico) - OU lógico (||)
 console.log(true || false); // retorna true
 console.log(false || true); // retorna true
-
+// (OU lógico) - OU lógico (||)
+console.log(false || false); // retorna false
 // (Negação lógica) - NOT lógico (!)
